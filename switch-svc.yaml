@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-dotnet-switch
+spec:
+  selector:
+    app: my-dotnet-switch
+    color: blue
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
