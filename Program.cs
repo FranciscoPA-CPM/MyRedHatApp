@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
-app.MapGet("/", () => Results.Json("hello webhook v1 Francisco"));
+app.MapGet("/", () => Results.Json("hello webhook v2 Francisco"));
 
 
 // var message = Environment.GetEnvironmentVariable("MESSAGE") ?? "default";
